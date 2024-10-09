@@ -1,0 +1,25 @@
+{
+  "employees": [
+    {
+      "id": "cfc3",
+      "ename": "Vignesh Balachandran",
+      "email": "vigneshcricketer86@gmail.com",
+      "phone": "9003733121",
+      "password": "12345"
+    },
+    {
+      "id": "0633",
+      "ename": "Hari Krishan",
+      "email": "hari@gmail.com",
+      "phone": "7232978244",
+      "password": "1221"
+    },
+    {
+      "id": "eb81",
+      "ename": "Navaneethan",
+      "email": "vicky@gamil.com",
+      "phone": "9003733121",
+      "password": "1234"
+    }
+  ]
+}

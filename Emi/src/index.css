@@ -1,0 +1,216 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 50px;
+    color: #fff;
+}
+
+.formdiv {
+    max-width: 450px;
+    margin: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+    transform: scale(1.02);
+}
+
+button {
+    padding: 15px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #f50057;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 500px) {
+    .formdiv {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3; /* Light background */
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #ff4081, #ff6f61);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Image Styles */
+.jimg {
+    background-image: url('https://example.com/your-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styles */
+#para {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#para:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    #para {
+        font-size: 18px;
+    }
+
+    .jimg {
+        height: 300px; /* Smaller image on mobile */
+    }
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3; /* Light background */
+}
+
+/* App Container */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: flex-start; /* Align items to the start */
+    background: #4a90e2; /* New background color */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    height: 60px; /* Adjust based on your logo size */
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+/* Link Styles */
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0; /* Space between links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #ffeb3b; /* Highlight color on hover */
+}
+
+/* Outlet Styles */
+.outlet {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .link {
+        margin: 10px 0; /* Ensure spacing is consistent on smaller screens */
+    }
+
+    .outlet {
+        margin: 10px;
+    }
+}
